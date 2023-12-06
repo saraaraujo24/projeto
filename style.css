@@ -1,0 +1,525 @@
+
+body {
+    font-size: Nunito, sans-serif;
+  
+}
+#sobre {
+    display:flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: left;
+    padding:0;
+    background-color:#3b84a8;
+    width: 100%;
+}
+.tille{/*uso*/
+    font-family:Arial, Helvetica, sans-serif;
+	color: #de7e18;
+}
+.tillePag{/*uso*/
+    font-family:Arial, Helvetica, sans-serif;
+	color: #de7e18;
+    font-size: 270%;
+
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+	color: #de7e18;
+
+}
+ h2{/*uso*/
+	font-family: Arial;
+	color: white;
+    text-align: center;
+}
+h3 {
+    font-size: Arial, sans-serif;
+    color:orange;
+}
+
+h1, h2 {
+    font-size: Asap, sans-serif;
+    color:#fff;
+}
+
+footer {/*uso*/
+
+	color: #fff;
+	padding: 10px;/*rodape*/
+	text-align: center;
+	
+}
+
+
+image img {
+    width: 100%;
+    background-position: center; 
+}
+
+#sobre {/*uso*/
+    display:flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: left;
+    padding: 10px 10px 20px 10px;
+    background-color:#3b84a8;
+}
+
+#sobre3 {/*uso*/
+    display:flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    background-color:#3d92c0;
+}
+#imagem{/*uso*/
+    width:100%;   
+    height:50%;
+}
+#lampada{/*uso*/
+    width:"100%"; 
+    height:"120";
+    position:center;
+    padding: 10px 10px 20px 20px;
+    
+}
+#light{/*uso* pagina de video*/
+    width:"100%"; 
+    height:"120";
+    position:center;
+    padding: 10px 10px 20px 20px;
+    width: 70px;
+    height: 90px; 
+}
+
+  .word {/*uso*/
+    line-height:1.7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    color:#ede9e1;
+    width:"100%"; 
+    width:300px;
+    text-align: center;
+    font-weight: bold;
+   
+  }
+  .leter {/*uso*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    color:#005072 ;
+    width:"100%"; 
+    width:300px;
+    text-align: center;
+    margin-top: 13%;
+   
+}
+.letra{/*uso*/
+
+    font-size: 90%;
+    color:#FFFFFF;
+    width:"100%"; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+    
+    h2{
+      font-size: 40px;
+      text-align: left 20px; 
+    }
+.container{/*uso*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.elementer{ /*uso*/
+    border-radius: 8px;
+      width:"100%"; 
+      width:300px;
+      height: 300px;
+      background-color:#e68f32;
+}
+.elemento { /*uso*/
+    border-radius: 8px;
+    width:"100%"; 
+    width:300px;
+    height: 300px;
+    background-color:#de7e18; 
+   
+}
+#h5{/*uso*/
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+   }
+ /*------css da pagina de dicas links-----------*/
+ .link{ /*uso*/
+    color:#de7e18;
+    width:"100%"; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+  }
+  .lin {/*uso*/
+    list-style-type: none;
+    margin: 8%;
+    width:"100%"; 
+    text-align: right;
+    color:white;/* Cor de destaque ao passar o mouse */
+    border-color: white;  
+  }
+   /*---/*---------/*css da pagina de contatos*/
+
+
+ .container{/*uso*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 15%;
+   
+  }
+  .quadrado { /*uso*/
+    width:"100%"; 
+    width:200px;
+    height: 300px;
+    background-color:#367896;
+    border-radius: 8px;
+ 
+  }
+  
+  
+  
+    /* Estilos para a lista de conteúdo */
+    #lista-conteudo {/*uso*/
+        list-style: none;
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        
+    
+    }
+    
+    .item-conteudo {/*uso*/
+        border: 5px solid #005072 ;
+        margin-bottom: 5px;
+        cursor: pointer;
+        border-radius: 30px;
+        border-width: medium 5px;
+        width: 60%;
+        margin-left: 20%;
+       
+  
+    }
+  
+    
+    .conteudo {/*uso*/
+        display: none;
+        margin-top: 10px;
+        padding: 3px;
+        
+    }
+
+
+
+.center{
+ 
+    line-height:1.8;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 140%;/*texto principal*/
+    font: weight 9%;
+    color:azure;
+    text-align:center;
+    margin: 0px 200px 0px 200px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+}
+.inicio{/*uso*/
+    line-height:1.2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 140%;/*texto principal*/
+    font: weight 9%;
+    color:azure;
+    text-align: center;
+    letter-spacing: 0px;
+}
+.lam{/*uso*/
+    text-align:center;/*sobre nos */
+    font-size:20px;
+    color: #f0d318;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto{/*uso*/
+    color:#de7e18;
+  }
+.h4{
+    color: #003d57;/*inutilizado*/
+}
+.texto{
+    color:#de7e18;
+}
+
+@media screen and (min-width: 768px) {
+    #lampada{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto; 
+        flex-direction: column;
+    }
+ 
+   #sobre {/*sobre da paginas de videos*/
+    display:flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: left;
+    padding:0;
+    background-color:#3b84a8;
+    width: 100%;
+}
+ /*parte de feraamentas ultilizada*/
+
+.ferra {color:#e68f32;
+    font-size: 100%;
+    width: 100%; 
+}
+.elemento {
+width:"100%"; 
+width:300px;
+height: 300px;
+}
+.CL2{
+    font-family:Arial, Helvetica, sans-serif;
+    color:floralwhite ;
+    text-align: center;
+    font-size: 120%;
+  
+  }
+
+
+}
+   /*Cabeçalho*/
+
+header {
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    width: 33.3333333%;
+}
+/* paginas de videos +curdidos +visu*/
+.linkV{ 
+    color:#033c54 ;
+    width:"100%"; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    
+}
+.linV {
+    list-style-type: none;
+    margin: 3%;
+    width:"100%"; 
+    text-align: right;
+    color:white;/* Cor de destaque ao passar o mouse */
+    border-color: white;  
+}
+
+
+
+
+
+
+
+/*teste*/
+CSS
+figure { 
+    width: 90%;
+     min-width: 17.5em; 
+     margin:0 auto;
+}
+figcaption { font: 120% sans-serif; text-align: center;}
+.boxVideo {
+    position: relative;
+    padding-bottom: 56.25%;    
+    padding-top: 25px;
+    height: 0;
+    margin:0 auto;
+  
+   
+}
+.boxVideo iframe {
+    position:absolute;
+    top: 0px;
+    left: 0;
+    width: 50%;
+    height: 40%;
+    margin-left: 25%;  
+    border-radius: 8px;
+}
+/*quadrado da pagina da discrisões dos videos*/
+.ferramenta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.element {  
+    width:180px;
+    height: 200%;
+}
+.ferra{
+    font-family:Arial;
+    font-size: 170%;
+    color:#f3630f;
+    width:"100%"; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.inff{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 180%;/*texto principal*/
+    justify-self: start;
+    display:flex;
+    flex-direction: column;
+    color:#e68f32;
+    width: 100%;
+    margin-top: -30%;
+}
+.inf{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 180%;/*texto principal*/
+  justify-self: start;
+  display:flex;
+  flex-direction: column;
+  color:#e68f32;
+  width: 100%;
+}
+.inicio2{/*uso*/
+    line-height:1.2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 140%;/*texto principal*/
+    font: weight 9%;
+    color:azure;
+    text-align: center;
+    letter-spacing: 0.4px;
+    margin-top: -25%;
+}
+/* termina quadrado da pagina da discrisões dos videos*/
+
+
+/*Avaliação dos prestadores de serviços das paginas de informações dos videos */
+.coluna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+   }
+      
+  .coluna .card{
+    position: relative;
+    padding: 1px;
+    background-color: #3b84a8;
+    margin: 10px;
+    border: 1px solid #f3630f;
+    border-radius: 5px;
+    width:"100%"; 
+    width:300px;
+    height: 385px;
+    text-align: justify;
+
+  }
+  .imgLogCont{
+    width:"100%"; 
+    height:"120";
+    width: 30%;
+    height:22%; 
+
+  }
+  .nomeCont{
+    display: flex;
+    font-size:160%;
+    color: #154961;
+    text-align: center;
+     flex-direction: column;
+     line-height:0px;
+   }
+   .TituloSobre{
+    line-height:20px ;
+    margin-left: 8px;
+    color:#FFFFFF;
+    line-height:1.2;
+    font-size:140%;
+  }   
+  .TSobre{
+   
+    text-align:center;
+    color:#FFFFFF;
+    line-height:1.0;
+    font-size:120%;
+    margin: 0px 30px 0px 30px;
+    
+  }
+
+.ContlinkV{ 
+    color:#033c54 ;
+    width:"100%"; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    
+}
+.Contlink {
+    list-style-type: none;
+    margin: 5%;
+    width:"100%"; 
+    text-align: right;
+    color:white;/* Cor de destaque ao passar o mouse */
+    border-color: white;  
+}
+  .Ava1{
+    font-size: 150%;
+    color:#FFFFFF;
+    width:"100%"; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+.avaliacao{
+    display: flex;
+    flex-direction: row;
+    margin-top: -15%;
+    margin-left: 32%;
+   }
+  .star-icon{ 
+    margin-left: 1%;
+    line-height:0.4;
+    list-style-type: none;
+    border:  #fff;
+    cursor: pointer;
+    color: #ffe500;
+    font-size: 30px;/* alterar o tamanho das estrelas */
+  }
+  .star-icon::before{
+    content: "\2605";
+  }
+  .star-icon.ativo ~ .star-icon::before{
+    content: "\2606";
+  }
+  .avaliacao:hover .star-icon::before{
+    content: "\2605";
+  }
+  .star-icon:hover ~ .star-icon::before{
+    content: "\2606";
+  }

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: cursive;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+   /* NAVBAR ESTILO */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color:#005072 ;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25%;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color:#e68f32;
+    border-radius: 6px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 4px 12px;
+   }
+   /* MENU SUSPENSO */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: #005072 ;
+    padding: 1em 0;
+    position: absolute; /*COM RELAÇÃO AOS PAIS*/
+    display: none;
+    border-radius: 2px;
+    top: 25px;
+   }
+   .dropdown li + li {
+    margin-top: 11px;
+   }
+   .dropdown li {
+    padding: 0.1em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #e68f32;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+   /* NAVBAR MENU RESPONSIVA*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+   } 
+   /*HAMBURGER MENU*/
+   .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+   }
+   /* APLICAÇÃO MEDIA QUERIES */
+   @media (max-width: 768px) {
+   .menu { 
+    display:none;
+    position: absolute;
+    background-color:#005072 ;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+   }
+   .menu li:hover {
+    display: inline-block;
+    background-color:#e68f32;
+    transition: 0.3s ease;
+   }
+   .menu li + li {
+    margin-top: 12px;
+   }
+   input[type=checkbox]:checked ~ .menu{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+   }
+   .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+   }
+   .dropdown li:hover {
+    background-color: #e68f32;
+   }
+   }

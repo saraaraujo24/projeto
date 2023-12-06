@@ -1,0 +1,208 @@
+@media (max-width: 999px) {
+    /*css da pagina principal*/
+    .elementer{ 
+        margin: 20px auto;
+      }
+      .elemento{ 
+        margin: 20px auto;
+      }
+     
+      .inff{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 180%;/*texto principal*/
+        justify-self: start;
+        display:flex;
+        flex-direction: column;
+        color:#e68f32;
+        width: 100%;
+        margin-top: -25%;
+    }
+    .Bloco1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        position: center;
+
+    }
+    .bloco2 { 
+        width:"100%"; 
+        width:180px;
+        height: 270px;
+        background-color:#367896;
+        margin: 0 5px 20px;
+      
+}
+#light{/*uso* pagina de video*/
+    width:"100%"; 
+    height:"120";
+    position:center;
+    padding: 10px 10px 20px 20px;
+ 
+    
+}
+.inicio2{/*uso*/
+    line-height:1.2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 130%;/*texto principal*/
+    font: weight 9%;
+    color:azure;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-top: -10%;
+}
+.inff{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 180%;/*texto principal*/
+    justify-self: start;
+    display:flex;
+    flex-direction: column;
+    color:#e68f32;
+    width: 100%;
+    margin-top: -25%;
+}
+.element { /*das ferramentas necessarias para instalações videos*/ 
+    width:180px;
+    height: 200%;
+     margin: 25px auto;
+}
+  .coluna .card{
+    position: relative;
+    padding: 1px;
+    background-color: #3b84a8;
+    margin: 10px;
+    border: 1px solid #f3630f;
+    border-radius: 5px;
+    width:"100%"; 
+    width:280px;
+    height: 360px;
+    text-align: justify;
+  }
+.nomeCont{
+    display: flex;
+    font-size:160%;
+    color: #154961;
+    text-align: center;
+     flex-direction: column;
+     margin-top: -5%;
+
+   }
+.TituloSobre{
+    line-height:20px ;
+    margin-left: 8px;
+    color:#FFFFFF;
+    font-size:120%;
+  }   
+.TSobre{
+    text-align:center;
+    color:#FFFFFF;
+    line-height:1.0;
+    font-size:100%;
+    margin: 0px 20px 0px 20px;  
+  }
+  .tillePag{/*uso*/
+    font-size: 150%;
+  
+}
+.boxVideo iframe {
+    position:absolute;
+    top: 0px;
+    left: 0;
+    width: 50%;
+    height: 50%;   
+}
+.swiper {
+  height: 270px;
+  margin-top: -100%;
+  
+
+}
+#lampada{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto; 
+  flex-direction: column;
+}
+
+
+
+.quadrado {
+  margin: 10px auto; /*uso*/
+
+}
+.CL2{
+  font-family:Arial, Helvetica, sans-serif;
+  color:floralwhite ;
+  text-align: center;
+  font-size: 50%;
+
+}
+.pres{
+  margin-top: -95%;
+}
+
+}
+
+
+@media  (max-width:350px) {
+    .container{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+  
+      }  
+      .elementer{ /*uso*/
+        width:"100%"; 
+        width:210px;
+        height: 250px;
+        background-color:#e68f32;
+  }
+  .elemento { /*uso*/
+    width:"100%"; 
+    width:210px;
+    height: 250px;
+    background-color:#de7e18; 
+}
+.leter {/*uso*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    color:#005072 ;
+    width:"100%"; 
+    width:210px;
+    text-align: center;
+   
+}
+.letra{/*uso*/
+    font-size: 80%;
+    color:#FFFFFF;
+    width:"100%"; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    }
+    .swiper {
+      height: 270px;
+      margin-top: -190%;
+
+    }
+    .CL2{
+      font-family:Arial, Helvetica, sans-serif;
+      color:floralwhite ;
+      
+      font-size: 10%;
+    
+    }
+    .pres{
+      margin-top: -95%;
+    }
+ 
+}
+
+@media screen and (min-width: 568px) {
+  .pres{
+    margin-top: -295%;
+  }
+
+}

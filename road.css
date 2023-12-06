@@ -1,0 +1,67 @@
+main{
+  
+    margin: 10% auto;
+    height: 100vh;
+    width: 60%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  span {
+    font-size: x-large;
+  }
+  
+  .imageCarrocel {
+    box-shadow: 0 1px 2px #0003;
+    width: 100%;
+    margin-top: 2%;
+    background-color: #ddd;
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+    width: 100px; 
+  
+  }
+  .swiper {
+   /* line-height:30px;*/
+    width:"100%"; 
+    width:450px;
+    height:370px;
+    background-color:#2e6c88;   
+    border-radius: 10px;
+    position: absolute; 
+    align-items: center;
+  margin-top: -50%;
+
+  
+ 
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+ .imageCarr {
+    box-shadow: 0 1px 2px #0003;
+    width: 90%;
+    margin-top: 2%;
+    height: 40px;
+    object-fit: cover;
+    width: 100px; 
+   }
+   .pres{
+    margin-top: -25%;
+  }
+  .pres1{
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    font-size: 250%;
+  }

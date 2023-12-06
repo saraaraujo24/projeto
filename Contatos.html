@@ -1,0 +1,674 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+     <head>
+     <meta charset="UTF-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="shortcut icon" href="img/log.png" type="image/x-icon" />
+     <link rel="stylesheet" href="menu.css" />
+     <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="media999.css" />
+     <link rel="stylesheet" type="text/css"  href="normalize.css">
+
+  
+    <title>Contatos</title>
+<style>
+   .CL2{
+    font-family:Arial, Helvetica, sans-serif;
+    color:floralwhite ;
+    text-align: center;
+    font-size: 170%;
+
+}
+.CL{
+    border-radius: 8px;
+    font-family: Arial;
+ font-size: 220%;
+    text-align: center;
+    color:#0d303f ;
+}
+    
+    
+
+</style>
+<script>
+    function mostrarConteudo(id) {
+          var conteudoSelecionado = document.getElementById(id);
+          
+          // Verifica se o conteúdo está visível
+          var estaVisivel = conteudoSelecionado.style.display === 'block';
+
+          // Oculta todos os conteúdos
+          var conteudos = document.querySelectorAll('.conteudo');
+          conteudos.forEach(function(conteudo) {
+              conteudo.style.display = 'none';
+          });
+
+          // Se o conteúdo já estiver visível, não faz nada (oculta)
+          if (!estaVisivel) {
+              conteudoSelecionado.style.display = 'block';
+          }
+      }
+  </script>
+</head>
+  <body>
+ <!-----------começa o menu-->
+
+ <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo"> <img src="img/log.png" width="100" height="100"></div>
+    <!-- NAVEGAÇÃO MENU -->
+    <ul class="nav-links">
+    <!-- CHECKBOX HACK -->
+    <input type="checkbox" id="checkbox_toggle" />
+    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+    <!-- NAVEGAÇÃO MENUS -->
+    <div class="menu">
+      <li><a href="Index.html">Início</a></li>
+      <li><a href="Dicas.html">Dicas</a></li>
+      <li class="services">
+      <a href="video.html">Videos</a>
+      <!-- MENU SUSPENSO OU DROPDOWN MENU -->
+      <ul class="dropdown">
+     
+     
+      </ul>
+      </li>
+      <li><a href="Contatos.html">Contatos</a></li>
+      <li><a href="Manual.html">Manual do Usuário</a></li>
+      </div>
+      </ul>
+   </nav>
+ <!-----------termina o menu-->
+ <section id="sobre">
+    <br><br><br>
+    <!-- Sua nova lista de conteúdo -->
+     <ul id="lista-conteudo">
+       <p class="CL">Contatos</p>
+       <br><br><br>
+         <li class="item-conteudo" onclick="mostrarConteudo('conteudo1')"><h1 class="CL2"> Instaladores de Fechadura Digital </h1></li>
+         <div id="conteudo1" class="conteudo" style="display:none;">
+ 
+ <!-- Conteudo dentro (Prestadores) -->
+             <section id="sobre">
+     <div class="container">
+         <div class ="quadrado">
+ 
+           <center><img src="img/EstenioLima.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: Estênio Lima<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (11) 99999-9999<br><br></h3>
+ 
+               <h3  class="letra">Valor do Serviço:<br> R$50,00<br><br></h3>
+              
+      
+         </div> 
+             <div class ="quadrado">
+ 
+            <center><img src="img/PauloGuedes.png"  width="90"  height="90"   ></center>
+               <h3  class="letra">Nome: Paulo Guedes<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (21) 88888-8888<br><br></h3>
+ 
+               <h3  class="letra">Valor do Serviço:<br>
+                 R$70,00<br><br></h3>
+         </div> 
+        
+ 
+         <div class ="quadrado">
+ 
+            <center><img src="img/DaviMoreira.png"  width="90"  height="90"  ></center>
+               <h3  class="letra">Nome: Davi Moreira<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (61) 77777-7777<br><br></h3>
+ 
+               <h3  class="letra">Valor do Serviço: <br>
+                             R$80,00<br><br></h3>
+              
+      
+         </div> 
+      
+         </footer>
+     </section>
+         </div>
+ <!-- fim -->
+ <br>
+ <br>
+ <br>
+ 
+ 
+ 
+ 
+         
+         <li class="item-conteudo" onclick="mostrarConteudo('conteudo2')"><h1 class="CL2"> Instaladores de Lâmpada Câmera </h1></li>
+         <div id="conteudo2" class="conteudo" style="display:none;">
+             
+             <!-- Conteudo dentro (Prestadores) -->
+             <section id="sobre">
+     <div class="container">
+         <div class ="quadrado">
+ 
+            <center><img src="img/MarinoDias.png"  width="90"  height="90"></center>
+               <h3  class="letra">Nome: Marino Dias<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (31) 55555-5555 <br><br></h3>
+ 
+               <h3  class="letra">Valor do Serviço:<br> R$60,00<br><br></h3>
+              
+      
+         </div> 
+             <div class ="quadrado">
+ 
+            <center><img src="img/GabrielAlmeida.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: Gabriel Almeida<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (19) 66666-6666<br><br></h3>
+ 
+               <h3  class="letra">Valor do Serviço:<br> R$75,00<br><br></h3>
+         </div> 
+        
+ 
+         <div class ="quadrado">
+ 
+            <center><img src="img/JoaoGomes.png"  width="90"  height="90"></center>
+               <h3  class="letra">Nome: João Gomes<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (41) 44444-4444<br><br></h3>
+ 
+               <h3  class="letra">Valor do Serviço:<br> R$80,00<br><br></h3>
+              
+      
+         </div> 
+      
+         </footer>
+     </section>
+         </div>
+ <!-- fim -->
+ 
+ <br>
+ <br>
+ <br>
+ 
+ 
+ 
+         <li class="item-conteudo" onclick="mostrarConteudo('conteudo3')"><h1 class="CL2">Instaladores de Automoção de Cortina</h1></li>
+         <div id="conteudo3" class="conteudo" style="display:none;">
+ 
+ <!-- Conteudo dentro (Prestadores) -->
+             <section id="sobre">
+     <div class="container">
+         <div class ="quadrado">
+ 
+            <center><img src="img/LiliaSilva.png"  width="90"  height="90"></center>
+               <h3  class="letra">Nome: Lilian Silva<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (51) 33333-3333
+ <br><br></h3>
+               <h3  class="letra">Valor do Serviço:<br> R$50,00<br><br></h3>
+              
+      
+         </div> 
+             <div class ="quadrado">
+ 
+            <center> <img src="img/AnaSilva.png"  width="90"  height="90"  ></center>
+               <h3  class="letra">Nome: Augusto Silva<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (62) 22222-2222
+ <br><br></h3>
+ <h3  class="letra">Valor do Serviço:<br> R$60,00<br><br></h3>
+         </div> 
+        
+ 
+         <div class ="quadrado">
+ 
+            <center> <img src="img/GeraldoGomes.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: Geraldo Gomes<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (73) 11111-1111
+ <br><br></h3>
+ <h3  class="letra">Valor do Serviço:<br> R$55,00<br><br></h3>
+              
+      
+         </div> 
+      
+         </footer>
+     </section>
+         </div>
+ <!-- fim -->
+ <br>
+ <br>
+ <br>
+ 
+ 
+ 
+ 
+ <ul id="lista-conteudo">
+         <li class="item-conteudo" onclick="mostrarConteudo('conteudo4')"><h1 class="CL2">Instaladores de Controle Universal I2Go Home</h1></li>
+         <div id="conteudo4" class="conteudo" style="display:none;">
+ 
+ <!-- Conteudo dentro (Prestadores) -->
+             <section id="sobre">
+     <div class="container">
+         <div class ="quadrado">
+ 
+            <center><img src="img/jr.png"  width="90"  height="90"  ></center>
+               <h3  class="letra">Nome: José Ricardo<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (79) 3481-7236<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$70,00<br><br></h3>
+              
+      
+         </div> 
+             <div class ="quadrado">
+ 
+            <center><img src="img/AnaSilva.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: Ana Silva<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (13) 2142-8097<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$79,00<br><br></h3>
+         </div> 
+        
+ 
+         <div class ="quadrado">
+ 
+            <center><img src="img/MarceloFaria.png"  width="90"  height="90"  ></center>
+               
+            <h3  class="letra">Nome: Marcelo Faria<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (27) 2530-1025<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$83,00<br><br></h3>
+              
+      
+         </div> 
+      
+         </footer>
+     </section>
+         </div>
+ <!-- fim -->
+ <br>
+ <br>
+ <br>
+ 
+ 
+ 
+ <ul id="lista-conteudo">
+         <li class="item-conteudo" onclick="mostrarConteudo('conteudo5')"><h1 class="CL2">Instaladores de Lampada Inteligente</h1></li>
+         <div id="conteudo5" class="conteudo" style="display:none;">
+ 
+ <!-- Conteudo dentro (Prestadores) -->
+             <section id="sobre">
+     <div class="container">
+         <div class ="quadrado">
+ 
+            <center><img src="img/LeonardoR.png"  width="90"  height="90"  ></center>
+               <h3  class="letra">Nome: Leonardo Ribeiro<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (46) 3101-6862
+ <br><br></h3>
+ <h3  class="letra">Valor do Serviço:<br> R$50,00<br><br></h3>
+              
+      
+         </div> 
+             <div class ="quadrado">
+ 
+            <center><img src="img/JoséLima.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: José Lima<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (34) 2201-8751
+ <br><br></h3>      
+                 <h3  class="letra">Valor do Serviço:<br> R$60,00<br><br></h3>
+         </div> 
+        
+ 
+         <div class ="quadrado">
+ 
+            <center><img src="img/MarcosOliveira.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: Marcos Oliveira<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h <br><br></h3>  
+ 
+               <h3  class="letra">Contato: (92) 3957-6524<br><br></h3>
+              
+               <h3  class="letra">Valor do Serviço:<br> R$80,00<br><br></h3>
+      
+         </div> 
+      
+         </footer>
+     </section>
+         </div>
+ <!-- fim -->
+ <br>
+ <br>
+ <br>
+ 
+ 
+ 
+ 
+ 
+ 
+ <ul id="lista-conteudo">
+         <li class="item-conteudo" onclick="mostrarConteudo('conteudo6')"><h1 class="CL2">Instaladores de Fechadura Digital Intelbras</h1></li>
+         <div id="conteudo6" class="conteudo" style="display:none;">
+ 
+ <!-- Conteudo dentro (Prestadores) -->
+             <section id="sobre">
+     <div class="container">
+         <div class ="quadrado">
+ 
+            <center><img src="img/EstenioLima.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: Estênio Lima<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (11) 99999-9999<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$90,00<br><br></h3>
+              
+      
+         </div> 
+             <div class ="quadrado">
+ 
+            <center><img src="img/PauloGuedes.png"  width="90"  height="90"></center>
+               <h3  class="letra">Nome: Paulo Guedes<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (21) 88888-8888<br><br></h3>
+               
+               <h3  class="letra">Valor do Serviço:<br> R$70,00<br><br></h3>
+         </div> 
+        
+ 
+ 
+         <div class ="quadrado">
+ 
+            <center><img src="img/DaviMoreira.png"  width="90"  height="90"   ></center>
+               <h3  class="letra">Nome: Davi Moreira<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (61) 77777-7777<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$50,00<br><br></h3>
+              
+      
+         </div> 
+      
+         </footer>
+     </section>
+         </div>
+ <!-- fim -->
+ <br>
+ <br>
+ <br>
+ 
+ 
+ 
+ 
+ <ul id="lista-conteudo">
+         <li class="item-conteudo" onclick="mostrarConteudo('conteudo7')"><h1 class="CL2">Instaladores de Lampâda Câmera VR 360</h1></li>
+         <div id="conteudo7" class="conteudo" style="display:none;">
+ 
+ <!-- Conteudo dentro (Prestadores) -->
+             <section id="sobre">
+     <div class="container">
+         <div class ="quadrado">
+ 
+            <center><img src="img/MarinoDias.png"  width="90"  height="90"  ></center>
+               <h3  class="letra">Nome: Marino Dias<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (31) 55555-5555 <br><br></h3>
+              
+               <h3  class="letra">Valor do Serviço:<br> R$70,00<br><br></h3>
+      
+         </div> 
+             <div class ="quadrado">
+ 
+            <center><img src="img/GabrielAlmeida.png"  width="90"  height="90"  ></center>
+               <h3  class="letra">Nome: Gabriel Almeida<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (19) 66666-6666<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$70,00<br><br></h3>
+         </div> 
+        
+ 
+         <div class ="quadrado">
+ 
+            <center><img src="img/JoaoGomes.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: João Gomes<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (41) 44444-4444 <br><br></h3>
+              
+               <h3  class="letra">Valor do Serviço:<br> R$50,00<br><br></h3>
+         </div> 
+      
+         </footer>
+     </section>
+         </div>
+ <!-- fim -->
+ <br>
+ <br>
+ <br>
+ 
+ 
+ 
+ 
+ <ul id="lista-conteudo">
+         <li class="item-conteudo" onclick="mostrarConteudo('conteudo8')"><h1 class="CL2">Instaladores de  Refletores de Led</h1></li>
+         <div id="conteudo8" class="conteudo" style="display:none;">
+ 
+ <!-- Conteudo dentro (Prestadores) -->
+             <section id="sobre">
+     <div class="container">
+         <div class ="quadrado">
+ 
+            <center><img src="img/MarinoDias.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: Mario Freita<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (20) 32455-4444<br><br></h3>
+              
+               <h3  class="letra">Valor do Serviço:<br> R$70,00<br><br></h3>
+      
+         </div> 
+             <div class ="quadrado">
+ 
+             <center><img src="img/GabrielAlmeida.png"  width="90"  height="90"   ></center>
+               <h3  class="letra">Nome: Geraldo Amaro<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (12) 99293-4518<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$60,00<br><br></h3>
+         </div> 
+        
+ 
+         <div class ="quadrado">
+ 
+            <center><img src="img/JoaoGomes.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: Joel Gomes<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (50) 99190-4444<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$60,00<br><br></h3>
+              
+      
+         </div> 
+      
+         </footer>
+     </section>
+         </div>
+ <!-- fim -->
+ <br>
+ <br>
+ <br>
+ 
+ 
+ 
+ 
+ 
+ <ul id="lista-conteudo">
+         <li class="item-conteudo" onclick="mostrarConteudo('conteudo9')"><h1 class="CL2">Instaladores de Controle Universal Positivo</h1></li>
+         <div id="conteudo9" class="conteudo" style="display:none;">
+ 
+ <!-- Conteudo dentro (Prestadores) -->
+             <section id="sobre">
+     <div class="container">
+         <div class ="quadrado">
+ 
+            <center><img src="img/jr.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: José Ricardo<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato:(79) 3481-7236 <br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$70,00<br><br></h3>
+              
+      
+         </div> 
+             <div class ="quadrado">
+ 
+            <center><img src="img/AnaSilva.png"  width="90"  height="90"   ></center>
+               <h3  class="letra">Nome: Ana Silva<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (13) 2142-8097<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$65,00<br><br></h3>
+         </div> 
+        
+ 
+         <div class ="quadrado">
+ 
+            <center><img src="img/MarceloFaria.png"  width="90"  height="90" ></center>
+               <h3  class="letra">Nome: Marcelo Faria<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (27) 2530-1025<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$59,00<br><br></h3>
+              
+      
+         </div> 
+      
+         </footer>
+     </section>
+         </div>
+ <!-- fim -->
+ <br>
+ <br>
+ <br>
+ 
+ 
+ 
+ 
+ <ul id="lista-conteudo">
+         <li class="item-conteudo" onclick="mostrarConteudo('conteudo10')"><h1 class="CL2">Instaladores de Interruptor Inteligente</h1></li>
+         <div id="conteudo10" class="conteudo" style="display:none;">
+ 
+ <!-- Conteudo dentro (Prestadores) -->
+             <section id="sobre">
+     <div class="container">
+         <div class ="quadrado">
+ 
+            <center><img src="img/RaquelLima.png"  width="90"  height="90"  ></center>
+               <h3  class="letra">Nome: Raquel Lima<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (82) 2163-0221<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$65,00<br><br></h3>
+              
+      
+         </div> 
+             <div class ="quadrado">
+ 
+            <center><img src="img/DiogoGomes.png"  width="90"  height="90"  ></center>
+               <h3  class="letra">Nome: Diogo Gomes<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (98) 2118-4232<br><br></h3>
+
+               <h3  class="letra">Valor do Serviço:<br> R$60,00<br><br></h3>
+         </div> 
+        
+ 
+         <div class ="quadrado">
+ 
+            <center><img src="img/SamuelMendes.png"  width="90"  height="90"  ></center>
+               <h3  class="letra">Nome: Samuel Mendes<br><br></h3>
+ 
+               <h3  class="letra">Horario: 09h às 18h<br><br></h3>  
+ 
+               <h3  class="letra">Contato: (97) 3424-7154<br><br></h3>
+              
+               <h3  class="letra">Valor do Serviço:<br> R$50,00<br><br></h3>
+         </div> 
+      
+         </footer>
+     </section>
+         </div>
+ <!-- fim -->
+ 
+ 
+<br><br><br><br>
+
+     <!-- Resto do seu conteúdo -->
+ 
+     <footer>
+        
+         <p>&copy; 2023 - Todos os direitos reservados</p>
+         <p>Desenvolvedores Tech Developers</p>
+     </footer>
+     </div>
+     </section>
+ </body>
+ </html>
